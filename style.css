@@ -62,6 +62,18 @@ button.normal {
     transition: 0.2s;
 }
 
+button.white {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -323,4 +335,53 @@ body {
 #banner button:hover {
     background-color: var(--main_color);
     color: #fff;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 620px;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .box2 {
+    color: #fff;
+    background-image: url("img/banner/b10.jpg");
+}
+
+#sm-banner .box2 h4,
+#sm-banner .box2 h2 {
+    color: #fff;
+}
+
+#sm-banner h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner button:hover {
+    background: #088178;
+    border-color: #088178;
 }
